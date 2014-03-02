@@ -70,13 +70,21 @@
   padding-bottom: 200px; }
   #organizers h1 {
     margin-top: 50px;
-    margin-bottom: 100px; }
+    margin-bottom: 50px; }
+  #organizers h4 {
+    margin: 0px;
+    color: #999999;
+    font-size: 0.8em;
+    text-transform: uppercase; }
+  #organizers strong {
+    color: #990000; }
 
 .judge {
   width: 33.33333%;
   min-width: 100px;
   float: left;
   display: block;
+  min-width: 300px;
   text-align: center;
   margin-bottom: 50px;
   position: relative; }
@@ -115,11 +123,6 @@
     color: #128acd;
     font-weight: 100;
     margin-bottom: 0px; }
-  .judge h4 {
-    margin: 0px;
-    color: #999999;
-    font-size: 0.8em;
-    text-transform: uppercase; }
   .judge nav {
     display: none;
     position: absolute;
